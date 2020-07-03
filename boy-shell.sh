@@ -31,3 +31,7 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 pip2 install pynvim
 pip3 install pynvim
 
+# get anaconda instll file
+scp boychaboy@163.239.199.230:/home/boychaboy/.installs/Anaconda3-2020.02-Linux-x86_64.sh .
+
+echo "now run Anaconda3 install file"
