@@ -1,8 +1,8 @@
 # boy-shell
-*boychaboy linux zshell environment setting*
+*boychaboy linux zshell environment settings automation*
 ### install
-at home directory
 ```shell
+$ cd
 $ ./boy-shell/boy-shell-zsh.sh
 $ ./boy-shell/boy-shell-neovim.sh
 $ ./boy-shell/boy-shell-conda.sh
