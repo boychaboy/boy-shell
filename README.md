@@ -11,7 +11,7 @@ $ ./boy-shell/boy-shell-conda.sh
 ```shell
 $ cd
 $ ./boy-shell/ssh-keygen.sh
-$ cp -r .ssh/config .
+$ cp .ssh/config .ssh/
 ```
 
 enjoy 😉
