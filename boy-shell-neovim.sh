@@ -53,6 +53,8 @@ python2 -c 'import platform; print(platform.python_version())'
 python3 -m pip install --user --upgrade pynvim
 python2 -m pip install --user --upgrade pynvim
 
+pip install gpustat
+
 echo ""
 echo "boy-shell-neovim install successful!"
 echo "Next step :"
