@@ -9,3 +9,6 @@ ssh-copy-id -i ~/.ssh/id_rsa_228.pub boychaboy@163.239.199.228
 ssh-copy-id -i ~/.ssh/id_rsa_229.pub boychaboy@163.239.199.229
 ssh-copy-id -i ~/.ssh/id_rsa_230.pub boychaboy@163.239.199.230
 ssh-copy-id -i ~/.ssh/id_rsa_231.pub boychaboy@163.239.27.43
+
+echo "Next step:"
+echo ">    cp ~/boy-shell/.ssh/config ~/.ssh/"
