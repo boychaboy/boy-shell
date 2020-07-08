@@ -121,13 +121,16 @@ alias vi="nvim"
 alias v="nvim"
 alias vimdiff="nvim -d"
 #export EDITOR=/usr/localbin/nvim
-alias nipa="ssh -p 16022 boychaboy@14.49.44.196"
-alias nipa2="ssh -p 16022 boychaboy@49.50.165.52"
+#alias nipa="ssh -p 16022 boychaboy@14.49.44.196"
+#alias nipa2="ssh -p 16022 boychaboy@49.50.165.52"
 #alias l="ls"
 alias sa="source activate"
 alias envs="conda info --envs"
 alias zshrc="vi ~/.zshrc"
-alias gpu="gpustat -i"
+alias gpu="gpustat"
+alias save="source ~/.zshrc"
+alias ca="conda activate"
+alias da="conda deactivate"
 
 
 # export PATH="/home/boychaboy/anaconda3/bin:$PATH"  # commented out by conda initialize
