@@ -75,16 +75,16 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-#plugins=(zsh-autosuggestions)
-#plugins=(zsh-syntax-highlighting)
-
 source $ZSH/oh-my-zsh.sh
 source ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=246"
 
+plugins=(
+	fasd
+)
 
 # User configuration
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=246"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -121,17 +121,17 @@ alias vi="nvim"
 alias v="nvim"
 alias vimdiff="nvim -d"
 #export EDITOR=/usr/localbin/nvim
-#alias nipa="ssh -p 16022 boychaboy@14.49.44.196"
-#alias nipa2="ssh -p 16022 boychaboy@49.50.165.52"
+alias nipa="ssh -p 16022 boychaboy@14.49.44.196"
+alias nipa2="ssh -p 16022 boychaboy@49.50.165.52"
 #alias l="ls"
-alias sa="source activate"
+alias ca="conda activate"
+alias da="conda deactivate"
 alias envs="conda info --envs"
 alias zshrc="vi ~/.zshrc"
 alias gpu="gpustat"
 alias save="source ~/.zshrc"
-alias ca="conda activate"
-alias da="conda deactivate"
-
+alias sa="conda activate"
+alias vimconfig="vi ~/.config/nvim/init.vim"
 
 # export PATH="/home/boychaboy/anaconda3/bin:$PATH"  # commented out by conda initialize
 
@@ -155,3 +155,11 @@ if [ -f '/home/boychaboy/google-cloud-sdk/path.zsh.inc' ]; then . '/home/boychab
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/home/boychaboy/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/boychaboy/google-cloud-sdk/completion.zsh.inc'; fi
+
+#gpustat -cp
+#
+#nsml
+export PATH=$PATH:/home/boychaboy/naver-ai-rush_2020
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
