@@ -1,5 +1,5 @@
 # boy-shell
-*boychaboy linux zshell environment settings automation*
+*boychaboy linux zshell & nvim environment settings automation*
 ### install
 ```shell
 $ cd
